@@ -26,5 +26,3 @@ class TestLogin(BaseConfig):
         json_data = self.get_data_from_json(self.get_project_root() + "\\testdata\\Google Search Data.json")
         print(json_data)
         return request.param
-
-    # Client k pass multile website platform multiple users ho Interfaces agrregation interface
